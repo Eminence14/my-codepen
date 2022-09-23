@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill Sans', sans-serif;
+    padding: 20px 0;
+}
+/* .container {
+    background-image: url('/images/bg-pattern-intro-right-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: 87% center;
+} */
+.top, .bottom {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.top {
+    background-color: rgba(0,0,0, .3);
+    background-image: url('/images/bg-pattern-intro-right-mobile.svg');
+    background-position: right -400%;
+}
+.bottom {
+    background-color: rgba(0,0,0, .7);
+    background-image: url('/images/bg-pattern-intro-right-mobile.svg');
+    background-position: right 600%;
+}
